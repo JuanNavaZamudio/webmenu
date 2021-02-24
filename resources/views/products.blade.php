@@ -7,5 +7,7 @@
 @section('content')
     <h2>inventario de productos</h2>
 
-    
+    @foreach('products')
+        
+    @endforeach
 @endsection
